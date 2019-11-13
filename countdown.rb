@@ -1,7 +1,7 @@
 
 
 def countdown(number)
-  while number > 10
+  while number > 1
   
     puts "#{number} seconds! "
     number -= 1
