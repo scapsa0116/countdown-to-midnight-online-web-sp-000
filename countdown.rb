@@ -6,9 +6,9 @@ def countdown(number)
     puts "#{number} seconds! "
     number -= 1
     
- end
+  end
   puts "HAPPY NEW YEAR!"
-    end
+end
 
 def countdown_with_sleep(sleep)
 time = Time.now
