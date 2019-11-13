@@ -11,6 +11,6 @@ def countdown(number)
 end
 
 def countdown_with_sleep(sleep)
-time = Time.now
-sleep 5.seconds until Time.now > time + 5.seconds 
-end
+while sleep >= 1
+   puts "#{sleep} SECOND(S)!"
+   sleep -= 1
