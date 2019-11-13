@@ -12,7 +12,7 @@ end
 
 def countdown_with_sleep(time)
   
-   while time >= 1
+  while time >= 1
    puts "#{time}"
    time -= 1
  end
