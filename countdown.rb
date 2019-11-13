@@ -11,7 +11,6 @@ def countdown(number)
 end
 
 def countdown_with_sleep(time)
-  Time.now .to_i >= 5
   while time >= 1
    puts "#{time}"
    time -= 1
